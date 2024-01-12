@@ -21,10 +21,3 @@ else if (Personagem.xp > 7000){return'Ascendente'}
 
 console.log(`O personagem ${Personagem.nome} está no nível ${Nivel()}`)
 
-
-let Elos = [{min: 0, max:  1000, nome: 'ferro'},{min: 1000, max:  2000, nome: 'ferro2'},{min: 2000, max:  3000, nome: 'ferro3'}]
-    Elos.forEach(item => {
-        if (Personagem.xp > item.min && Personagem.xp <= item.max){
-            console.log(item.nome)
-        }
-    })
